@@ -10,6 +10,7 @@ export default function Head () {
       <style>
         body {
           background-color: #A675F5;
+          margin: 0 2.5em 0 2.5em;
         }
       </style>
     </head>
