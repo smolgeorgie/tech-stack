@@ -1,0 +1,86 @@
+<header>
+  <div>
+    <p>Frontend Design & Developement</p>
+  </div>
+  <div>
+    <nav>
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="/"> Sprint 1 </a></li>
+        <li><a href="/"> Home </a></li>
+        <li><a href="/"> Sprint 2 </a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  
+  /* header div {
+    display: flex;
+    max-width: 26rem;
+    height: 7rem;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: 2em;
+  } */
+
+  header div:first-of-type {
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 1em;
+  }
+
+  header p {
+    color: black;
+    border-left: 1px solid black;
+    padding: 0 1em;
+    font-size: 1.2em;
+    letter-spacing: -0.03em;
+  }
+
+  nav {
+    width: 35em;
+    height: 9em;
+    position: relative;
+    font-size: 0.8rem;
+    background-color: #ebf3df;
+    color: black;
+    border-radius: 15px 15px 0 0;
+    margin-top: 1em;
+    margin-left: auto; /* Pushes the nav to the right */
+    margin-right: 1em;
+  }
+
+  nav::before {
+    content: "";
+    position: absolute;
+    width: 1.5em;
+    aspect-ratio: 1;
+    left: -1.5em;
+    border-radius: 0 0 50% 0;
+    bottom: 0;
+    box-shadow: 0.5em 0.5em 0 0 #ebf3df;
+  }
+
+  nav h2 {
+    font-size: 1.5em;
+    padding: -0.25em;
+    margin: 1em 0 0 1em;
+    color: black;
+  }
+
+  ul {
+    display: flex;
+    font-weight: 500;
+    padding: 0 4em;
+    gap: 1em;
+    list-style-type: none;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+</style>
