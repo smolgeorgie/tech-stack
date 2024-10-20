@@ -44,6 +44,40 @@ I then created a index.mjs file in a 'page' folder and called back the data from
 **20-10-2024**
 There has been some issues with pushing and pulling through laptop and desktop. I didn't push my progress on my laptop but did push on my laptop which created collission in files. I had to look through my commits and returned everything manually.
 
+## Assignment Argumentation 
+
+**Why am I using this framework?**
+I'm using the Enhance framework because it's an HTML-based framework that creates a more semantic site and uses HTML as its foundation. This makes it accessible and easy to build on compared to other JavaScript frameworks.
+
+**Why does it suit this specific project?**
+Since we're building the new website for the FDND site, I think it's crucial to start with HTML and CSS as a base. This provides a great example for new students, allowing them to inspect the code and figure out how it's built without diving into layers of divs created by JS frameworks. It's essentially the business card of the study, starting with the fundamentals of frontend coding.
+
+**Will I use this framework in the future?**
+For now, I'd say no because it's brand new and lacks documentation. As a beginner, it's challenging to figure things out on my own. There aren't many articles, YouTube videos, or comprehensive documentation to guide me. However, I believe that once this framework becomes more popular, it will be easy to use and start with. I'm not a fan of their CSS approach, though, especially as a beginner.
+
+**Argumentation Diagram**
+
+```mermaid
+classDiagram
+      Enhance <|-- No
+      Enhance <|-- Yes
+      Enhance <|-- Maybe
+      Enhance : +html
+      Enhance : +css
+      class No{
+          +Too new
+          +Hard as a beginner
+          +Different approach on CSS
+      }
+      class Yes{
+          -Easy to read into
+          -Its HTML based
+      }
+      class Maybe{
+          +New but easy to read
+          +Fun to discover
+      }
+```
 
 ## Sources
 
