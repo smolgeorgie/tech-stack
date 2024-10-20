@@ -5,6 +5,9 @@ export default function Program({ html, state }) {
   const { program } = store;
 
   return html`
+
+  <fdnd-nav></fdnd-nav>
+  
     <h1>${program.title}</h1>
     <h2>${program.subtitle}</h2>
 

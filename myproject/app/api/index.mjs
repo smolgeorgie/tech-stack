@@ -1,6 +1,6 @@
-export async function get(req) {
+export async function get() {
   const apiUrl =
-    "https://eu-central-1.cdn.hygraph.com/content/cl54wpnkq38x701t370gr4cvs/master"; // Replace with your API URL
+    "https://eu-central-1.cdn.hygraph.com/content/cl54wpnkq38x701t370gr4cvs/master";
 
   const query = `
       query Program {
