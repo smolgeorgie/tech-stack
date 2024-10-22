@@ -34,6 +34,7 @@ Overall, while Enhance presents some initial challenges, its potential benefits 
 ### How to see my full assignment? 
 
 ```
-Run the project as explained up above, or click ' on this page. 
+Run the project as explained up above, or click ' on this page.
+or
 Search for the file: docs/enhance.md
 ```
