@@ -1,33 +1,32 @@
-> _Fork_ deze leertaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/main/docs/INSTRUCTIONS.md)
+# README
+This README provides information about my project using the Enhance framework. Here you'll find details about my choices, the rationale behind them, and even installation instructions if you want to delve deeper.
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+## Installation
 
-## Inhoudsopgave
+To clone and run the project locally, follow these steps:
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+```
+git clone git@github.com:enhance-dev/enhance-movies.git
+cd myproject
+npm install
+```
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+**Run local**
+```
+npm start
+```
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+## Framework Choice: Enhance
 
-## Installatie
+I've chosen the Enhance framework for this project due to its HTML-based foundation, which promotes accessibility and ease of development. While it's still a relatively new framework with limited documentation, I believe its potential for future growth and its suitability for beginners (once it matures) make it a worthwhile choice for this learning opportunity.
 
-## Gebruik
+## Key Advantages:
+* Semantic HTML: Creates well-structured and accessible websites.
+* HTML Foundation: Simplifies development compared to complex JavaScript frameworks.
+* Educational Value: Provides a clear example for new students to learn from.
+  
+## Challenges:
+* Limited Documentation: May require additional research or troubleshooting.
+* CSS Approach: May not align with personal preferences, especially for beginners.
 
-## Bronnen
-
-## Licentie
-
-This project is licensed under the terms of the [MIT license](./LICENSE).
+Overall, while Enhance presents some initial challenges, its potential benefits and alignment with project goals make it a valuable learning experience.
