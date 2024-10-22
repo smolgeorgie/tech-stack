@@ -4,7 +4,6 @@
   </div>
   <div>
     <nav>
-      <h2>Menu</h2>
       <ul>
         <li><a href="/"> Sprint 1 </a></li>
         <li><a href="/"> Home </a></li>
@@ -15,11 +14,9 @@
 </header>
 
 <style>
-
-  header div:first-of-type {
+  header div {
     justify-content: start;
     align-items: center;
-    padding-bottom: 1em;
   }
 
   header p {
@@ -38,7 +35,8 @@
     background-color: #ebf3df;
     color: black;
     border-radius: 15px 15px 0 0;
-    margin-left: auto; /* Pushes the nav to the right */
+    margin-left: auto;
+    /* Pushes the nav to the right */
   }
 
   nav::before {
@@ -60,9 +58,14 @@
 
   ul {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
     font-weight: 500;
     padding: 0 4em;
+    margin: 0;
     gap: 1em;
+    font-size: 20px;
     list-style-type: none;
   }
 

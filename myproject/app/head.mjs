@@ -9,7 +9,13 @@ export default function Head() {
       <title></title>
       <style>
         body {
-          background-color: #A675F5;
+        
+        --content-bg: #ebf3df;
+        --general-bg: #A675F5;
+        --content-pad: 3em;
+        --border-rd-cont: 25px 0 25px 25px;
+
+          background-color: var(--general-bg);
           margin: 0 2.5em 0 2.5em;
         }
       </style>

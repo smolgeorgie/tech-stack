@@ -7,6 +7,8 @@ export default function Program({ html, state }) {
   return html`
 
   <fdnd-nav></fdnd-nav>
+
+  <article class="fdnd-program">
   
     <h1>${program.title}</h1>
     <h2>${program.subtitle}</h2>
@@ -36,5 +38,7 @@ export default function Program({ html, state }) {
     )
     .join("")}
     </ul>
+
+    </article>
   `;
 }
