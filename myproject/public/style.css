@@ -1,6 +1,19 @@
 h1 {
     margin: 0;
+    font-size: 26px;
+    font-weight: 500;
 }
+
+h2 {
+    margin: 0;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+p {
+        font-size: 16px;
+        max-width: 75ch;
+    }
 
 div.program {
     background: #ebf3df;
@@ -11,3 +24,35 @@ div.program {
     padding: var(--content-pad);
     border-radius: var(--border-rd-cont);
 }
+
+.fdnd-program_semesters {
+    padding: 1rem 0 0 0;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  li strong {
+    display: block;
+    margin-bottom: 5px; 
+  }
+
+  ul ul {
+    margin-left: 20px; 
+    padding-left: 20px; 
+    border-left: 2px solid #ccc; 
+  }
+
+  ul ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; 
+    height: 2em;
+  }

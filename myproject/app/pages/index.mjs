@@ -5,19 +5,19 @@ export default function Program({ html, state }) {
   const { program } = store;
 
   return html`
+    <fdnd-nav></fdnd-nav>
 
-  <fdnd-nav></fdnd-nav>
+    <article class="fdnd-program">
+      <h1>${program.title}</h1>
+      <p>${program.content.html}</p>
+      <p></p>
 
-  <article class="fdnd-program">
-  
-    <h1>${program.title}</h1>
-    <h2>${program.subtitle}</h2>
+      <article class="fdnd-program_semesters">
+        <h2>${program.subtitle}</h2>
 
-    <div>${program.content.html}</div>
-
-    <h3>Semesters</h3>
-    <ul>
-      ${program.semesters
+        <h3>Semesters</h3>
+  <ul>
+    ${program.semesters
     .map(
       (semester) => `
           <li>
@@ -26,10 +26,11 @@ export default function Program({ html, state }) {
               ${semester.sprints
     .map(
       (sprint) => `
-                <li>
-                  Sprint ${sprint.sprintNumber}: ${sprint.title} (Start date: ${sprint.startdate})
-                </li>
-              `
+                    <li>
+                      Sprint ${sprint.sprintNumber}: ${sprint.title})
+                    </li>
+                  `
+      // You can add this later:  (Start date: ${sprint.startdate}
     )
     .join("")}
             </ul>
@@ -37,8 +38,7 @@ export default function Program({ html, state }) {
         `
     )
     .join("")}
-    </ul>
-
-    </article>
-  `;
+  </ul>
+`;
 }
+

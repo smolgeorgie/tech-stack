@@ -13,10 +13,12 @@ export default function Head() {
         --content-bg: #ebf3df;
         --general-bg: #A675F5;
         --content-pad: 3em;
-        --border-rd-cont: 25px 0 25px 25px;
+        --border-rd-cont: 15px 0 15px 15px;
+        --font-fam: 'Open Sans', sans-serif;
 
           background-color: var(--general-bg);
-          margin: 0 2.5em 0 2.5em;
+          margin: 0 1em 0 1em;
+          font-family: var(--font-fam);
         }
       </style>
     </head>
